@@ -1,0 +1,102 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "codereptile-vanilla-plus-plus",
+    "name": "CodeReptile Vanilla++",
+    "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
+    "author": "codereptile",
+    "version": "v1.0.0",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "CameraTools"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "CommunityPartsTitles"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasCategory"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasNoCCKDup"
+        },
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "FreeIva"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        },
+        {
+            "name": "KSAIVAUpgrade"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "ProbeControlRoomRecontrolled"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "RCSBuildAid"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "Reviva"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "ThroughTheEyesOfaKerbal"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "WaterfallRestock"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "release_date": "2024-04-26T14:48:37.427188Z",
+    "kind": "metapackage"
+}
