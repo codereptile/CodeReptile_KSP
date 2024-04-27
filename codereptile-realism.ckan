@@ -13,6 +13,9 @@
             "name": "ContractConfigurator-KerbinSpaceStation"
         },
         {
+            "name": "ConnectedLivingSpace"
+        },
+        {
             "name": "ContractConfigurator-Tourism"
         },
         {
