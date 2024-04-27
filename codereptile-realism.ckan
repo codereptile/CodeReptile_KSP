@@ -1,0 +1,84 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "codereptile-realism",
+    "name": "CodeReptile Realism",
+    "abstract": "A few more mods for realism and new game mechanics",
+    "author": "codereptile",
+    "version": "v1.0.0",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "ContractConfigurator-KerbinSpaceStation"
+        },
+        {
+            "name": "ContractConfigurator-Tourism"
+        },
+        {
+            "name": "CryoEngines-NFAero"
+        },
+        {
+            "name": "DeepFreeze"
+        },
+        {
+            "name": "HeatControl"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Kerbalism-Config-Default"
+        },
+        {
+            "name": "Kerbalism-SystemHeat"
+        },
+        {
+            "name": "NearFutureAeronautics"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureElectrical-DecayingRTGs"
+        },
+        {
+            "name": "NearFutureExploration"
+        },
+        {
+            "name": "NearFutureLaunchVehicles"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "Parallax-OuterPlanetsMod"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "SystemHeat-Converters"
+        },
+        {
+            "name": "SystemHeat-FissionEngines"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-Harvesters"
+        }
+    ],
+    "release_date": "2024-04-27T07:26:03.878336Z",
+    "kind": "metapackage"
+}

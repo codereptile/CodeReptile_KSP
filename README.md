@@ -59,4 +59,28 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | RG   | `Scatterer`                               | Amazing atmosphere effects                     |
 | RG   | `Environmental Visual Enhancements Redux` | Clouds, city-lights, and a lot more            |
 
+## Realism mode:
 
+**WARNING**: One of the mods in the pack file will install `Parallax` as a dependency, which is a graphics-heavy mod!
+
+Install all of the above and:
+
+| Type | Mod name                                          | Quick description                               |
+|------|---------------------------------------------------|-------------------------------------------------|
+| RMP  | `Kerbalism`                                       | Huge reworking of science, resources and more   |
+| RMP  | `System Heat` + `Kerbalism System Heat` + configs | Realistic heat management                       |
+| RMP  | `DeepFreeze Continued`                            | Freeze hibernation for resource saving          |
+| RP   | `Heat Control`                                    | Parts for heat control                          |
+| RP   | `Near future Electrical`                          | Nuclear and battery technologies                |
+| RM   | `Near Future Electrical - Decaying RTGs`          | RTGs power decays over time                     |
+| RP   | `Near Future Propulsion`                          | Advanced engines + 2 fuel types                 |
+| RP   | `Near Future Solar`                               | New solar panels                                |
+| RP   | `Near Future Spacecraft`                          | Advanced command pods and orbital engines       |
+| RP   | `Near Future Launch Vehicles`                     | BIGGER ROCKETS!!!                               |
+| RP   | `Near Future Exploration`                         | Probe cores and antennas                        |
+| RP   | `Near Future Aeronautics`                         | Advances aerospace                              |
+| RM   | `Cryogenic Engines - Near Future Aeronautics`     | Convert relevant engines to cryo fuels          |
+| D    | `Outer Planets Mod`                               | New destinations for all these future engines   |
+| G!   | `Outer Planets Mod - Parallax with Scatters`      | Install only if you want scatterer              |
+| C    | `Contract Pack: Bases and Stations Reborn`        | Contracts for building and maintaining stations |
+| C    | `Contract Pack: Tourism Plus`                     | Contracts for tourism                           |
