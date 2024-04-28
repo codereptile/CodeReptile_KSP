@@ -43,13 +43,19 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | Q    | `Community Tech Tree`                     | A common dependency                            |
 | Q    | `Hide Empty Tech Tree Nodes`              | Useful if you're using the community tech tree |
 | Q    | `WaypointManager`                         | Simplified waypoint navigation                 |
+| Q    | `Astrogator`                              | Space navigational aide                        |
 | Q    | `FreeIva`                                 | Roam your space station from the Kerbal's POV  |
 | Q    | `Reviva`                                  | Manage different cockpits in-game              |
 | QMG  | `DE_IVAExtension`                         | A large set of cockpits                        |
-| QMG  | `ProbeControlRoom Recontrolled`           | Control rooms as a cockpit for satellites      |
+| QMG  | `Mk1 Cockpit IVA Replacement by ASET`     | Cockpit design for the mk1                     |
+| QMG  | `Mk1 Lander Can IVA Replacement by ASET`  | Cockpit design for the mk1 lander              |
+| QMG  | `MK1-2 IVA Replacement by ASET`           | Mk1-3 Command Pod design (new name for mk1-2)  |
+| QMG  | `Probe Control Room Recontrolled`         | Control rooms as a cockpit for satellites      |
 | QMG  | `KSA IVA Upgrade`                         | A few more cockpits                            |
 | QMG  | `RasterPropMonitor`                       | Modifies IVAs with functional props            |
-| QM   | `Through The Eyes of a Kerbal`            | First-person play-through                      | 
+| QMG  | `AvionicsSystems`                         | More display functionality                     |
+| QMG  | `VesselView-UI-RasterPropMonitor`         | Support for in-cockpit view of the spaceship   |
+| QM   | `Through The Eyes of a Kerbal`            | First-person play-through                      |
 | Q    | `Camera tools continued`                  | Camera tools                                   |
 | G    | `ReStock`                                 | Community textures for stock parts             |
 | GP   | `ReStock+`                                | A few part additions to fill in the gaps       |
@@ -67,6 +73,7 @@ Install all of the above and:
 
 | Type | Mod name                                          | Quick description                                    |
 |------|---------------------------------------------------|------------------------------------------------------|
+| QMG  | `ALCOR Adopted`                                   | An amazing modern cockpit                            |
 | RMP  | `Kerbalism`                                       | Huge reworking of science, resources and more        |
 | RMP  | `System Heat` + `Kerbalism System Heat` + configs | Realistic heat management                            |
 | RMP  | `DeepFreeze Continued`                            | Freeze hibernation for resource saving               |

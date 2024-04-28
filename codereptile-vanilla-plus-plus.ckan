@@ -4,11 +4,17 @@
     "name": "CodeReptile Vanilla++",
     "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
     "author": "codereptile",
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
     "depends": [
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "AvionicsSystems"
+        },
         {
             "name": "BetterTimeWarpCont"
         },
@@ -52,7 +58,16 @@
             "name": "KSAIVAUpgrade"
         },
         {
+            "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
             "name": "MechJeb2"
+        },
+        {
+            "name": "Mk1CockpitIVAReplbyASET"
+        },
+        {
+            "name": "Mk1LanderCanIVAReplbyASET"
         },
         {
             "name": "Parallax"
@@ -61,10 +76,10 @@
             "name": "ProbeControlRoomRecontrolled"
         },
         {
-            "name": "RasterPropMonitor"
+            "name": "RCSBuildAid"
         },
         {
-            "name": "RCSBuildAid"
+            "name": "RasterPropMonitor"
         },
         {
             "name": "ReStock"
@@ -86,6 +101,9 @@
         },
         {
             "name": "Trajectories"
+        },
+        {
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "Waterfall"
