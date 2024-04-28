@@ -4,7 +4,7 @@
     "name": "CodeReptile Vanilla++",
     "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
     "author": "codereptile",
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -47,6 +47,9 @@
         },
         {
             "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-HR"
         },
         {
             "name": "FreeIva"

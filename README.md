@@ -64,6 +64,7 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | RG!  | `Parallax`                                | Ultra-detailed planets                         |
 | RG   | `Scatterer`                               | Amazing atmosphere effects                     |
 | RG   | `Environmental Visual Enhancements Redux` | Clouds, city-lights, and a lot more            |
+| RG   | `EVE - Stock Planet Configs`              | Default config for EVE                         |
 
 ## Realism setup:
 
