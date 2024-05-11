@@ -57,6 +57,7 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | QMG  | `VesselView-UI-RasterPropMonitor`         | Support for in-cockpit view of the spaceship   |
 | QM   | `Through The Eyes of a Kerbal`            | First-person play-through                      |
 | Q    | `Camera tools continued`                  | Camera tools                                   |
+| Q    | `Improved and Updated Chase Camera`       | Better camera view                             |
 | G    | `ReStock`                                 | Community textures for stock parts             |
 | GP   | `ReStock+`                                | A few part additions to fill in the gaps       |
 | RG   | `Waterfall Core` + `WaterfallRestock`     | Realistic engine plumes                        |
@@ -65,6 +66,14 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | RG   | `Scatterer`                               | Amazing atmosphere effects                     |
 | RG   | `Environmental Visual Enhancements Redux` | Clouds, city-lights, and a lot more            |
 | RG   | `EVE - Stock Planet Configs`              | Default config for EVE                         |
+
+### Manual install:
+
+Unfortunately, not all mods are supported via CKAN, so you'll have to install them manually:
+
+| Type | Mod name           | Quick description         |
+|------|--------------------|---------------------------|
+| Q    | `Mouse Aim Flight` | MUCH easier plane control |
 
 ## Realism setup:
 

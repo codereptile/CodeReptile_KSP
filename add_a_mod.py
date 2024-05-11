@@ -36,7 +36,7 @@ def add_and_sort_depends(content: str, new_mod: dict) -> str:
 
 
 if __name__ == '__main__':
-    target_filename = input("Please enter the mod file: ")
+    target_filename = input("Please enter the mod file (v/r): ")
     if target_filename == 'v':
         target_filename = 'codereptile-vanilla-plus-plus.ckan'
     elif target_filename == 'r':
