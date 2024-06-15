@@ -21,7 +21,8 @@ def add_and_sort_depends(content: str, new_mod: dict) -> str:
         # Find all mod names
         mods = re.findall(r'"name": "([^"]*)"', depends_content)
         # Add the new mod's name
-        mods.append(new_mod['name'])
+        if new_mod['name'] != "":
+            mods.append(new_mod['name'])
         # Sort alphabetically
         mods_sorted = sorted(mods)
 
@@ -36,11 +37,13 @@ def add_and_sort_depends(content: str, new_mod: dict) -> str:
 
 
 if __name__ == '__main__':
-    target_filename = input("Please enter the mod file (v/r): ")
+    target_filename = input("Please enter the mod file (v/r/g): ")
     if target_filename == 'v':
         target_filename = 'codereptile-vanilla-plus-plus.ckan'
     elif target_filename == 'r':
         target_filename = 'codereptile-realism.ckan'
-    new_mod_name = input("Please enter the name of the new mod: ")
+    elif target_filename == 'g':
+        target_filename = 'codereptile-graphics-enhanced.ckan'
+    new_mod_name = input("Please enter the name of the new mod (leave null to just sort): ").strip()
     new_content = add_and_sort_depends(read_file(target_filename), {"name": new_mod_name})
     write_file(target_filename, new_content)

@@ -4,7 +4,7 @@
     "name": "CodeReptile Vanilla++",
     "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
     "author": "codereptile",
-    "version": "v1.1.1",
+    "version": "v1.2.1",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -40,16 +40,7 @@
             "name": "DE-IVAExtension"
         },
         {
-            "name": "DistantObject"
-        },
-        {
             "name": "DockingPortAlignmentIndicator"
-        },
-        {
-            "name": "EnvironmentalVisualEnhancements"
-        },
-        {
-            "name": "EnvironmentalVisualEnhancements-HR"
         },
         {
             "name": "FreeIva"
@@ -76,9 +67,6 @@
             "name": "Mk1LanderCanIVAReplbyASET"
         },
         {
-            "name": "Parallax"
-        },
-        {
             "name": "ProbeControlRoomRecontrolled"
         },
         {
@@ -88,19 +76,7 @@
             "name": "RasterPropMonitor"
         },
         {
-            "name": "ReStock"
-        },
-        {
-            "name": "ReStockPlus"
-        },
-        {
             "name": "Reviva"
-        },
-        {
-            "name": "Scatterer"
-        },
-        {
-            "name": "Scatterer-sunflare"
         },
         {
             "name": "ThroughTheEyesOfaKerbal"
@@ -110,12 +86,6 @@
         },
         {
             "name": "VesselView-UI-RasterPropMonitor"
-        },
-        {
-            "name": "Waterfall"
-        },
-        {
-            "name": "WaterfallRestock"
         },
         {
             "name": "WaypointManager"
