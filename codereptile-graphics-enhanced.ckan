@@ -25,7 +25,13 @@
             "name": "ReStockPlus"
         },
         {
+            "name": "Scatterer"
+        },
+        {
             "name": "Spectra"
+        },
+        {
+            "name": "Spectra-Scatterer"
         },
         {
             "name": "Spectra-EVE64kKerbinClouds"

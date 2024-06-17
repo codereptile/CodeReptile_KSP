@@ -75,24 +75,30 @@ Unfortunately, not all mods are supported via CKAN, so you'll have to install th
 |------|--------------------|---------------------------|
 | Q    | `Mouse Aim Flight` | MUCH easier plane control |
 
-## Graphics enhanced:
+## Graphics enhanced setup:
+
+### IMPORTANT NOTICE:
+
+**If your GPU has low memory and you have integrated graphics, please make the first launch after installing mods with integrated GPU. Some mods like Scatterer will do unpacking during first launch
+and might fail on low memory. You can then restart the game with the discrete GPU.**
 
 ENHANCE!!!
 
-| Type | Mod name                                               | Quick description                         |
-|------|--------------------------------------------------------|-------------------------------------------|
-| G    | `ReStock`                                              | Community textures for stock parts        |
-| GP   | `ReStock+`                                             | A few part additions to fill in the gaps  |
-| RG   | `Waterfall Core` + `WaterfallRestock`                  | Realistic engine plumes                   |
-| RG   | `Distant Object Enhancement /L`                        | You can see other planets far away better |
-| RG!  | `Parallax`                                             | Ultra-detailed planets                    |
-| RG   | `Environmental Visual Enhancements Redux`              | Clouds, city-lights, and a lot more       |
-| RG   | `Spectra`                                              | An optimized EVE-based atmosphere revamp  |
-| RG   | `Spectra EVE 64k Kerbin clouds`                        | Spectra add-on                            |
-| RG   | `Spectra EVE Kerbin and Laythe snow`                   | Spectra add-on                            |
-| RG   | `Spectra EVE Minmus geysers`                           | Spectra add-on                            |
-| RG   | ~~`Scatterer`~~ (Caused bugs, so removed)              | ~~Amazing atmosphere effects~~            |
-| RG   | ~~`EVE - Stock Planet Configs`~~ (Replaced by Spectra) | Default config for EVE                    |
+| Type | Mod name                                  | Quick description                            |
+|------|-------------------------------------------|----------------------------------------------|
+| G    | `ReStock`                                 | Community textures for stock parts           |
+| GP   | `ReStock+`                                | A few part additions to fill in the gaps     |
+| RG   | `Waterfall Core` + `WaterfallRestock`     | Realistic engine plumes                      |
+| RG   | `Distant Object Enhancement /L`           | You can see other planets far away better    |
+| RG!  | `Parallax`                                | Ultra-detailed planets                       |
+| RG   | `Environmental Visual Enhancements Redux` | Clouds, city-lights, and a lot more          |
+| RG   | `Spectra`                                 | An optimized EVE-based atmosphere revamp     |
+| RG   | `Spectra EVE 64k Kerbin clouds`           | Spectra add-on                               |
+| RG   | `Spectra EVE Kerbin and Laythe snow`      | Spectra add-on                               |
+| RG   | `Spectra EVE Minmus geysers`              | Spectra add-on                               |
+| RG   | `Scatterer`                               | Amazing atmosphere effects                   |
+| RG   | `Spectra-Scatterer`                       | Spectra configs for Scatterer                |
+| RG   | ~~`EVE - Stock Planet Configs`~~          | Default config for EVE (Replaced by Spectra) |
 
 ## Realism setup:
 
@@ -118,7 +124,7 @@ Install all of the above and:
 | RP   | `Near Future Aeronautics`                         | Advances aerospace                                   |
 | RM   | `Cryogenic Engines - Near Future Aeronautics`     | Convert relevant engines to cryo fuels               |
 | D    | `Outer Planets Mod`                               | New destinations for all these future engines        |
-| G!   | `Outer Planets Mod - Parallax with Scatters`      | Install only if you want scatterer                   |
+| G!   | `Outer Planets Mod - Parallax with Scatters`      | Install only if you want Scatterer + Parallax        |
 | C    | `Contract Pack: Bases and Stations Reborn`        | Contracts for building and maintaining stations      |
 | C    | `Contract Pack: Tourism Plus`                     | Contracts for tourism                                |
 
