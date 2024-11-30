@@ -8,7 +8,8 @@ You can find all craft used in all of my videos here:
 
 # KSP mod pack @ CodeReptile
 
-The focus of this mode pack is to bring new mechanics into the game, making late-game more challenging, while providing a shallow learning curve. I also provide a number of difficulty presets.
+The focus of this mode pack is to bring new mechanics into the game, making late-game more challenging, while providing a shallow learning curve. I
+also provide a number of difficulty presets.
 
 Abbreviations for mod types:
 
@@ -79,7 +80,8 @@ Unfortunately, not all mods are supported via CKAN, so you'll have to install th
 
 ### IMPORTANT NOTICE:
 
-**If your GPU has low memory and you have integrated graphics, please make the first launch after installing mods with integrated GPU. Some mods like Scatterer will do unpacking during first launch
+**If your GPU has low memory and you have integrated graphics, please make the first launch after installing mods with integrated GPU. Some mods like
+Scatterer will do unpacking during first launch
 and might fail on low memory. You can then restart the game with the discrete GPU.**
 
 ENHANCE!!!
@@ -122,6 +124,7 @@ Install all of the above and:
 | RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                    |
 | RP   | `Near Future Exploration`                                    | Probe cores and antennas                             |
 | RP   | `Near Future Aeronautics`                                    | Advances aerospace                                   |
+| PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                            |
 | RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                   |
 | RM   | `Stockalike Station Parts Expansion Redux - Internal Spaces` | Interiors for Stockalike Station Parts               |
 | RM   | `Cryogenic Engines - Near Future Aeronautics`                | Convert relevant engines to cryo fuels               |

@@ -4,7 +4,7 @@
     "name": "CodeReptile Realism",
     "abstract": "A few more mods for realism and new game mechanics",
     "author": "codereptile",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -29,6 +29,9 @@
         },
         {
             "name": "HeatControl"
+        },
+        {
+            "name": "KerbalPlanetaryBaseSystems"
         },
         {
             "name": "Kerbalism"
