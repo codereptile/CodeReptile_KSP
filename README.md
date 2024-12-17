@@ -67,6 +67,8 @@ Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few m
 | QM   | `Through The Eyes of a Kerbal`           | First-person play-through                      |
 | Q    | `Camera tools continued`                 | Camera tools                                   |
 | Q    | `Improved and Updated Chase Camera`      | Better camera view                             |
+| Q    | `BetterBurnTime`                         | Shows time till impact/atmosphere entry, etc   |
+| Q    | `Chatterer`                              | Chatterer =)                                   |
 
 ### Manual install:
 
@@ -112,6 +114,7 @@ Install all of the above and:
 |------|--------------------------------------------------------------|------------------------------------------------------|
 | QMG  | `ALCOR Adopted`                                              | An amazing modern cockpit                            |
 | RMP  | `Kerbalism`                                                  | Huge reworking of science, resources and more        |
+| RMP  | `RemoteTech`                                                 | Much more realistic connections, signal delays       |
 | RMP  | `System Heat` + `Kerbalism System Heat` + configs            | Realistic heat management                            |
 | RMP  | `DeepFreeze Continued`                                       | Freeze hibernation for resource saving               |
 | RM   | `ConnectedLivingSpace`                                       | Crew can be transferred only between connected space |
@@ -124,6 +127,7 @@ Install all of the above and:
 | RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                    |
 | RP   | `Near Future Exploration`                                    | Probe cores and antennas                             |
 | RP   | `Near Future Aeronautics`                                    | Advances aerospace                                   |
+| RP   | `KerbalAtomics`                                              | Nuclear engines                                      |
 | PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                            |
 | RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                   |
 | RM   | `Stockalike Station Parts Expansion Redux - Internal Spaces` | Interiors for Stockalike Station Parts               |
@@ -132,6 +136,7 @@ Install all of the above and:
 | G!   | `Outer Planets Mod - Parallax with Scatters`                 | Install only if you want Scatterer + Parallax        |
 | C    | `Contract Pack: Bases and Stations Reborn`                   | Contracts for building and maintaining stations      |
 | C    | `Contract Pack: Tourism Plus`                                | Contracts for tourism                                |
+| C    | `Contract Pack: RemoteTech`                                  | Contracts for Remote Tech                            |
 
 # Settings
 
@@ -161,3 +166,4 @@ Overall profile: HARD, only changed settings are shown
     - DeepFreeze Options:
         - Fatal EC/Heat Option: ON
         - AutoRecover Frozen Kerbals at KSC: ON
+- RemoteTech: MANUAL config change to `UpgradeableOmni = 2.0E+09;5.0E+10;2.5E+11` for `GroundStations` (makes them = stock)

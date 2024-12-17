@@ -4,7 +4,7 @@
     "name": "CodeReptile Vanilla++",
     "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
     "author": "codereptile",
-    "version": "v1.2.1",
+    "version": "v1.2.2",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -16,10 +16,16 @@
             "name": "AvionicsSystems"
         },
         {
+            "name": "BetterBurnTime"
+        },
+        {
             "name": "BetterTimeWarpCont"
         },
         {
             "name": "CameraTools"
+        },
+        {
+            "name": "Chatterer"
         },
         {
             "name": "CommunityCategoryKit"

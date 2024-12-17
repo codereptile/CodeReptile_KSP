@@ -4,7 +4,7 @@
     "name": "CodeReptile Realism",
     "abstract": "A few more mods for realism and new game mechanics",
     "author": "codereptile",
-    "version": "v1.0.2",
+    "version": "v1.1.2",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -19,6 +19,9 @@
             "name": "ContractConfigurator-KerbinSpaceStation"
         },
         {
+            "name": "ContractConfigurator-RemoteTech"
+        },
+        {
             "name": "ContractConfigurator-Tourism"
         },
         {
@@ -29,6 +32,9 @@
         },
         {
             "name": "HeatControl"
+        },
+        {
+            "name": "KerbalAtomics"
         },
         {
             "name": "KerbalPlanetaryBaseSystems"
@@ -71,6 +77,9 @@
         },
         {
             "name": "Parallax-OuterPlanetsMod"
+        },
+        {
+            "name": "RemoteTech"
         },
         {
             "name": "StationPartsExpansionRedux"
