@@ -110,33 +110,34 @@ ENHANCE!!!
 
 Install all of the above and:
 
-| Type | Mod name                                                     | Quick description                                    |
-|------|--------------------------------------------------------------|------------------------------------------------------|
-| QMG  | `ALCOR Adopted`                                              | An amazing modern cockpit                            |
-| RMP  | `Kerbalism`                                                  | Huge reworking of science, resources and more        |
-| RMP  | `RemoteTech`                                                 | Much more realistic connections, signal delays       |
-| RMP  | `System Heat` + `Kerbalism System Heat` + configs            | Realistic heat management                            |
-| RMP  | `DeepFreeze Continued`                                       | Freeze hibernation for resource saving               |
-| RM   | `ConnectedLivingSpace`                                       | Crew can be transferred only between connected space |
-| RP   | `Heat Control`                                               | Parts for heat control                               |
-| RP   | `Near future Electrical`                                     | Nuclear and battery technologies                     |
-| RM   | `Near Future Electrical - Decaying RTGs`                     | RTGs power decays over time                          |
-| RP   | `Near Future Propulsion`                                     | Advanced engines + 2 fuel types                      |
-| RP   | `Near Future Solar`                                          | New solar panels                                     |
-| RP   | `Near Future Spacecraft`                                     | Advanced command pods and orbital engines            |
-| RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                    |
-| RP   | `Near Future Exploration`                                    | Probe cores and antennas                             |
-| RP   | `Near Future Aeronautics`                                    | Advances aerospace                                   |
-| RP   | `KerbalAtomics`                                              | Nuclear engines                                      |
-| PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                            |
-| RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                   |
-| RM   | `Stockalike Station Parts Expansion Redux - Internal Spaces` | Interiors for Stockalike Station Parts               |
-| RM   | `Cryogenic Engines - Near Future Aeronautics`                | Convert relevant engines to cryo fuels               |
-| D    | `Outer Planets Mod`                                          | New destinations for all these future engines        |
-| G!   | `Outer Planets Mod - Parallax with Scatters`                 | Install only if you want Scatterer + Parallax        |
-| C    | `Contract Pack: Bases and Stations Reborn`                   | Contracts for building and maintaining stations      |
-| C    | `Contract Pack: Tourism Plus`                                | Contracts for tourism                                |
-| C    | `Contract Pack: RemoteTech`                                  | Contracts for Remote Tech                            |
+| Type | Mod name                                                     | Quick description                                        |
+|------|--------------------------------------------------------------|----------------------------------------------------------|
+| QMG  | `ALCOR Adopted`                                              | An amazing modern cockpit                                |
+| Q    | `TweakScale Rescaled`                                        | Rescale any part (and yes, it's better than the OG mod)! |
+| RMP  | `Kerbalism`                                                  | Huge reworking of science, resources and more            |
+| RMP  | `RemoteTech`                                                 | Much more realistic connections, signal delays           |
+| RMP  | `System Heat` + `Kerbalism System Heat` + configs            | Realistic heat management                                |
+| RMP  | `DeepFreeze Continued`                                       | Freeze hibernation for resource saving                   |
+| RM   | `ConnectedLivingSpace`                                       | Crew can be transferred only between connected space     |
+| RP   | `Heat Control`                                               | Parts for heat control                                   |
+| RP   | `Near future Electrical`                                     | Nuclear and battery technologies                         |
+| RM   | `Near Future Electrical - Decaying RTGs`                     | RTGs power decays over time                              |
+| RP   | `Near Future Propulsion`                                     | Advanced engines + 2 fuel types                          |
+| RP   | `Near Future Solar`                                          | New solar panels                                         |
+| RP   | `Near Future Spacecraft`                                     | Advanced command pods and orbital engines                |
+| RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                        |
+| RP   | `Near Future Exploration`                                    | Probe cores and antennas                                 |
+| RP   | `Near Future Aeronautics`                                    | Advances aerospace                                       |
+| RP   | `KerbalAtomics`                                              | Nuclear engines                                          |
+| PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                                |
+| RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                       |
+| RM   | `Stockalike Station Parts Expansion Redux - Internal Spaces` | Interiors for Stockalike Station Parts                   |
+| RM   | `Cryogenic Engines - Near Future Aeronautics`                | Convert relevant engines to cryo fuels                   |
+| D    | `Outer Planets Mod`                                          | New destinations for all these future engines            |
+| G!   | `Outer Planets Mod - Parallax with Scatters`                 | Install only if you want Scatterer + Parallax            |
+| C    | `Contract Pack: Bases and Stations Reborn`                   | Contracts for building and maintaining stations          |
+| C    | `Contract Pack: Tourism Plus`                                | Contracts for tourism                                    |
+| C    | `Contract Pack: RemoteTech`                                  | Contracts for Remote Tech                                |
 
 # Settings
 
