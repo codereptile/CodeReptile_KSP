@@ -16,6 +16,9 @@
             "name": "EnvironmentalVisualEnhancements"
         },
         {
+            "name": "Firefly"
+        },
+        {
             "name": "Parallax"
         },
         {
@@ -31,9 +34,6 @@
             "name": "Spectra"
         },
         {
-            "name": "Spectra-Scatterer"
-        },
-        {
             "name": "Spectra-EVE64kKerbinClouds"
         },
         {
@@ -41,6 +41,9 @@
         },
         {
             "name": "Spectra-EVEMinmusGeysers"
+        },
+        {
+            "name": "Spectra-Scatterer"
         },
         {
             "name": "Waterfall"

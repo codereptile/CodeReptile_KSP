@@ -6,6 +6,8 @@ You can find all craft used in all of my videos here:
 |--------|-----------------------|--------------------------------------------|
 | Anubis | `Infected on the mun` | An apollo-style rocket for Mun exploration |
 
+But there are many more random designs for you to have fun with =)
+
 # KSP mod pack @ CodeReptile
 
 The focus of this mode pack is to bring new mechanics into the game, making late-game more challenging, while providing a shallow learning curve. I
@@ -102,6 +104,7 @@ ENHANCE!!!
 | RG   | `Spectra EVE Minmus geysers`              | Spectra add-on                               |
 | RG   | `Scatterer`                               | Amazing atmosphere effects                   |
 | RG   | `Spectra-Scatterer`                       | Spectra configs for Scatterer                |
+| RG   | `Firefly`                                 | Better reentry effects                       |
 | RG   | ~~`EVE - Stock Planet Configs`~~          | Default config for EVE (Replaced by Spectra) |
 
 ## Realism setup:
