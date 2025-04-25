@@ -1,14 +1,17 @@
 {
     "spec_version": "v1.18",
-    "identifier": "codereptile-vanilla-plus-plus",
-    "name": "CodeReptile Vanilla++",
-    "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
+    "identifier": "codereptile-graphics-enhanced",
+    "name": "CodeReptile Graphics Enhanced",
+    "abstract": "Better visuals",
     "author": "codereptile",
-    "version": "v1.2.1",
+    "version": "v2.0.0",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
     "depends": [
+        {
+            "name": "Deferred"
+        },
         {
             "name": "DistantObject"
         },
@@ -19,7 +22,7 @@
             "name": "Firefly"
         },
         {
-            "name": "Parallax"
+            "name": "ParallaxContinued"
         },
         {
             "name": "ReStock"
@@ -32,6 +35,15 @@
         },
         {
             "name": "Spectra"
+        },
+        {
+            "name": "Spectra-ScattererJoolShineOnLaythe"
+        },
+        {
+            "name": "Spectra-ScattererMinmus"
+        },
+        {
+            "name": "Spectra-ScattererVibrantSunsets"
         },
         {
             "name": "Spectra-EVE64kKerbinClouds"
