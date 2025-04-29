@@ -449,7 +449,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 380838.22895869263
+		funds = 328380.70505579957
 	}
 	SCENARIO
 	{
@@ -954,6 +954,7 @@ GAME
 			part = restock-materialbay-radial-1
 			part = batteryPack
 			part = capacitor-rad-0625
+			part = kerbalism-lifesupportmodule
 		}
 		Tech
 		{
@@ -1014,6 +1015,7 @@ GAME
 			part = R8winglet
 			part = restock-reactionwheel-radial-1
 			part = mumech.MJ2.AR202
+			part = sasModule
 		}
 		Tech
 		{
@@ -1120,6 +1122,7 @@ GAME
 			part = radialDecoupler1-2
 			part = EnginePlate1p5
 			part = fairingSize1p5
+			part = radialDecoupler2
 		}
 		Tech
 		{
@@ -1127,6 +1130,8 @@ GAME
 			state = Available
 			cost = 160
 			part = evaCylinder
+			part = kerbalism-container-radial-pressurized-prosemian-huge
+			part = kerbalism-container-radial-box-prosemian-large
 		}
 		Tech
 		{
@@ -1140,6 +1145,8 @@ GAME
 			state = Available
 			cost = 160
 			part = hydrogen-25-2
+			part = RCSFuelTank
+			part = rcsTankMini
 		}
 		Tech
 		{
@@ -1163,6 +1170,7 @@ GAME
 			id = unmannedTech
 			state = Available
 			cost = 300
+			part = probeCoreOcto2.v2
 		}
 		Science
 		{
@@ -2940,9 +2948,9 @@ GAME
 			id = kerbalism_SITE@KerbinInSpaceHighBadlands
 			title = SITE while in space high over Kerbin's Badlands
 			dsc = 2.48000002
-			scv = 0.0105371475
+			scv = 0
 			sbv = 1.5
-			sci = 4.45258284
+			sci = 4.5
 			asc = True
 			cap = 4.5
 		}
@@ -3893,7 +3901,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 3634130.3827757481
+		update = 3643932.9926976287
 		version = 1.12.5
 		WEIGHTS
 		{
@@ -4521,7 +4529,6 @@ GAME
 					notes = The station must include 1 Docking Port and support 4 Kerbals. This can be done in one launch, or multiple launches.
 					completedMessage = 
 					duration = 0
-					trackedVessel = e99200dd-b8ad-495c-918b-9414b502e0e9
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					resetChildrenWhenVesselDestroyed = False
@@ -5734,7 +5741,6 @@ GAME
 					notes = The station must include 1 Docking Port and support 4 Kerbals. This can be done in one launch, or multiple launches.
 					completedMessage = 
 					duration = 0
-					trackedVessel = e99200dd-b8ad-495c-918b-9414b502e0e9
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					resetChildrenWhenVesselDestroyed = False
@@ -5850,7 +5856,7 @@ GAME
 						PARAM
 						{
 							name = ParameterDelegate`1
-							state = Complete
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = BasesandStations.StationCoreCombined
@@ -6927,7 +6933,6 @@ GAME
 					notes = 
 					completedMessage = 
 					duration = 0
-					trackedVessel = e99200dd-b8ad-495c-918b-9414b502e0e9
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					resetChildrenWhenVesselDestroyed = False
@@ -10881,7 +10886,7 @@ GAME
 				ControlModulePartId = 409991980
 				DeployedBody = Minmus
 				ControlModuleEnabled = True
-				LastScienceGeneratedUT = 3634108.4027757277
+				LastScienceGeneratedUT = 3643904.7948460663
 				MANNEDSCIENCEPARTS
 				{
 					MANNEDSCIENCEPART
@@ -10924,14 +10929,14 @@ GAME
 							PartId = 4183831909
 							ExperimentName = ModuleGroundExperiment
 							ExperimentId = deployedGooObservation
-							TotalScienceGenerated = 2.95811343
-							StoredScienceData = 0.591622651
+							TotalScienceGenerated = 3.14877009
+							StoredScienceData = 0.629755974
 							TransmittedScienceData = 0
 							ScienceLimit = 225
 							ScienceValue = 0.0703125
 							ScienceModifierRate = 5
 							ScienceDiminishingModifierRate = 1
-							LastScienceGeneratedUT = 3634108.3827757277
+							LastScienceGeneratedUT = 3643869.9979710663
 							noPowerMsgPosted = False
 							noCommNetMsgPosted = False
 							VesselId = 295674d6-2e79-4cac-b8df-ec9c6b774fff
@@ -13404,7 +13409,7 @@ GAME
 	{
 		name = RemoteTechProgressTracker
 		scene = 7, 8, 5
-		nextCheck = 91208
+		nextCheck = 91255
 		CelestialBodyInfo
 		{
 			body = Sun
@@ -13426,7 +13431,7 @@ GAME
 		CelestialBodyInfo
 		{
 			body = Minmus
-			coverage = 1046527
+			coverage = 1048575
 			activeRange = 1500000
 		}
 		CelestialBodyInfo
@@ -13438,7 +13443,7 @@ GAME
 		CelestialBodyInfo
 		{
 			body = Eve
-			coverage = 247710
+			coverage = 249758
 			activeRange = 0
 		}
 		CelestialBodyInfo
@@ -13486,7 +13491,7 @@ GAME
 		CelestialBodyInfo
 		{
 			body = Gilly
-			coverage = 1048059
+			coverage = 1046011
 			activeRange = 0
 		}
 		CelestialBodyInfo
@@ -13680,7 +13685,7 @@ GAME
 		scene = 5, 8, 7, 6
 		version = 3.19
 		uid = 481836813
-		uncreditedScience = 0.00033432099962369961
+		uncreditedScience = 0.047751663662434982
 		kerbals
 		{
 			Jebediah___Kerman
@@ -13692,7 +13697,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 8.7506583795377999
+						problem = 8.7595413620523352
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -13708,14 +13713,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					breathing
@@ -13734,7 +13739,7 @@ GAME
 					}
 					stress
 					{
-						problem = 3.9233661414243628E-05
+						problem = 0.00017469035865357483
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -13750,7 +13755,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 3.8781864649503341
+						problem = 3.8871017143706879
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -13766,14 +13771,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					breathing
@@ -13792,7 +13797,7 @@ GAME
 					}
 					stress
 					{
-						problem = 3.7414643781746585E-05
+						problem = 0.00016659106760694785
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -13808,7 +13813,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 1.8474449475033083
+						problem = 1.8555461929114512
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -13824,14 +13829,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 3107.1182968784124
+						time_since = 2115.0204043593258
 						lifetime = False
 					}
 					breathing
@@ -13850,7 +13855,7 @@ GAME
 					}
 					stress
 					{
-						problem = 3.8423689296627048E-05
+						problem = 0.00017108390657578421
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -13866,7 +13871,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 2.1861549735976511
+						problem = 2.2012493616090287
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -13882,14 +13887,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 196.67773435823619
+						time_since = 10004.339841844514
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 196.67773435823619
+						time_since = 4604.339841844514
 						lifetime = False
 					}
 					breathing
@@ -13908,7 +13913,7 @@ GAME
 					}
 					stress
 					{
-						problem = 0.043533472446981546
+						problem = 0.043829431586910168
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -14064,7 +14069,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 2.4006922488906586
+						problem = 2.4175155485878963
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -14080,14 +14085,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 3930.9484073519707
+						time_since = 2938.6105148382485
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 3930.9484073519707
+						time_since = 2938.6105148382485
 						lifetime = False
 					}
 					breathing
@@ -14106,7 +14111,7 @@ GAME
 					}
 					stress
 					{
-						problem = 0.038759640680965088
+						problem = 0.039025561396112185
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -14154,7 +14159,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 2.2864516087831599
+						problem = 2.3024694392043843
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -14170,14 +14175,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 3930.9484073519707
+						time_since = 2938.6105148382485
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 3930.9484073519707
+						time_since = 2938.6105148382485
 						lifetime = False
 					}
 					breathing
@@ -14196,7 +14201,7 @@ GAME
 					}
 					stress
 					{
-						problem = 0.062872390124022154
+						problem = 0.0633037427024013
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -14221,14 +14226,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 5013.5650129579008
+						time_since = 4021.2271204441786
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 5013.5650129579008
+						time_since = 4021.2271204441786
 						lifetime = False
 					}
 					breathing
@@ -14247,14 +14252,14 @@ GAME
 					}
 					stress
 					{
-						problem = 0.061898302183208048
+						problem = 0.062322356871734395
 						message = 0
 						time_since = 0
 						lifetime = False
 					}
 					radiation
 					{
-						problem = 2.2316213084780196
+						problem = 2.2473331298637254
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -14469,63 +14474,13 @@ GAME
 		}
 		vessels2
 		{
-			65556462-5bd2-451f-9db6-7dfe8d6c07c9
-			{
-				msg_signal = False
-				msg_belt = False
-				cfg_ec = True
-				cfg_supply = True
-				cfg_signal = True
-				cfg_malfunction = True
-				cfg_storm = False
-				cfg_script = False
-				cfg_highlights = True
-				cfg_showlink = True
-				cfg_show = True
-				isGroundCtrl = False
-				deviceTransmit = True
-				solarPanelsAverageExposure = -1
-				scienceTransmitted = 0
-				StormData
-				{
-					storm_time = 0
-					storm_duration = 0
-					storm_generation = 0
-					storm_state = 0
-					msg_storm = 0
-					displayed_duration = 0
-					display_warning = True
-				}
-				computer
-				{
-					scripts
-					{
-					}
-				}
-				supplies
-				{
-				}
-				dump_specs
-				{
-				}
-				SunShielding
-				{
-					maxPressure = 0
-					sspi
-					{
-					}
-				}
-				parts
-				{
-				}
-			}
 			71d14d80-0708-447f-80bd-92d46da12d23
 			{
 				msg_signal = False
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14575,7 +14530,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14625,7 +14580,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14743,7 +14698,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14793,7 +14748,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14843,7 +14798,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14893,7 +14848,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -14994,7 +14949,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -15036,140 +14991,6 @@ GAME
 				}
 				parts
 				{
-				}
-			}
-			b5d29807-9a85-4f84-bb80-d8ffeae6f6f0
-			{
-				msg_signal = False
-				msg_belt = False
-				cfg_ec = True
-				cfg_supply = True
-				cfg_signal = True
-				cfg_malfunction = True
-				cfg_storm = False
-				cfg_script = False
-				cfg_highlights = True
-				cfg_showlink = True
-				cfg_show = True
-				isGroundCtrl = False
-				deviceTransmit = True
-				solarPanelsAverageExposure = -1
-				scienceTransmitted = 0
-				StormData
-				{
-					storm_time = 0
-					storm_duration = 0
-					storm_generation = 0
-					storm_state = 0
-					msg_storm = 0
-					displayed_duration = 0
-					display_warning = True
-				}
-				computer
-				{
-					scripts
-					{
-					}
-				}
-				supplies
-				{
-				}
-				dump_specs
-				{
-				}
-				SunShielding
-				{
-					maxPressure = 0
-					sspi
-					{
-					}
-				}
-				parts
-				{
-					3690382069
-					{
-						drive
-						{
-							name = Mystery Goo™ Containment Unit
-							is_private = True
-							dataCapacity = 0
-							sampleCapacity = 1
-							sendFileNames = 
-							files
-							{
-							}
-							samples
-							{
-							}
-						}
-					}
-				}
-			}
-			21e3e1c1-19ff-4a2d-a5e4-44946ae508ac
-			{
-				msg_signal = False
-				msg_belt = False
-				cfg_ec = True
-				cfg_supply = True
-				cfg_signal = True
-				cfg_malfunction = True
-				cfg_storm = False
-				cfg_script = False
-				cfg_highlights = True
-				cfg_showlink = True
-				cfg_show = True
-				isGroundCtrl = False
-				deviceTransmit = True
-				solarPanelsAverageExposure = -1
-				scienceTransmitted = 0
-				StormData
-				{
-					storm_time = 0
-					storm_duration = 0
-					storm_generation = 0
-					storm_state = 0
-					msg_storm = 0
-					displayed_duration = 0
-					display_warning = True
-				}
-				computer
-				{
-					scripts
-					{
-					}
-				}
-				supplies
-				{
-				}
-				dump_specs
-				{
-				}
-				SunShielding
-				{
-					maxPressure = 0
-					sspi
-					{
-					}
-				}
-				parts
-				{
-					2727386549
-					{
-						drive
-						{
-							name = Mystery Goo™ Containment Unit
-							is_private = True
-							dataCapacity = 0
-							sampleCapacity = 1
-							sendFileNames = 
-							files
-							{
-							}
-							samples
-							{
-							}
-						}
-					}
 				}
 			}
 			b21e4ab3-1b7c-4b36-95cc-65b380a48e6a
@@ -15178,7 +14999,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -15519,7 +15340,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -15569,7 +15390,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -15619,7 +15440,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = True
 				cfg_script = False
@@ -15885,7 +15706,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = True
 				cfg_script = False
@@ -15935,7 +15756,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -16211,7 +16032,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -16487,7 +16308,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -16537,7 +16358,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -16813,7 +16634,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -16863,7 +16684,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17139,7 +16960,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17189,7 +17010,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17239,7 +17060,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17515,7 +17336,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17525,7 +17346,7 @@ GAME
 				isGroundCtrl = False
 				deviceTransmit = True
 				solarPanelsAverageExposure = 0.90175622646691689
-				scienceTransmitted = 49.798310054662842
+				scienceTransmitted = 49.845727397325653
 				StormData
 				{
 					storm_time = 0
@@ -17791,7 +17612,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -17841,7 +17662,7 @@ GAME
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
-				cfg_signal = True
+				cfg_signal = False
 				cfg_malfunction = True
 				cfg_storm = False
 				cfg_script = False
@@ -19702,7 +19523,7 @@ GAME
 			}
 			kerbalism_SITE@100990977
 			{
-				percentRetrieved = 0.98949420425279044
+				percentRetrieved = 1.0000313910924827
 			}
 			kerbalism_SITE@117768193
 			{
@@ -20291,7 +20112,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 3639705.0968013504
+				storm_generation = 3677204.9557706164
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -20331,7 +20152,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 3641978.4826099472
+				storm_generation = 3680760.6053027688
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -20341,7 +20162,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 3634463.4612595527
+				storm_generation = 3672541.5102378633
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -20358,380 +20179,19 @@ GAME
 		}
 		ui
 		{
-			win_left = 1782
-			win_top = 464
+			win_left = 701
+			win_top = 454
 			map_viewed = True
 		}
 	}
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 3634133.442775751
+		UT = 3643941.1648851326
 		activeVessel = 0
 		mapViewFiltering = 19390
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
-		VESSEL
-		{
-			pid = 655564625bd2451f9db67dfe8d6c07c9
-			persistentId = 735744702
-			name = 0008-Super Flea Mk2 Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			skipGroundPositioning = False
-			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
-			launchedFrom = LaunchPad
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 5.1800000001130684
-			lct = 9694.497080081801
-			lastUT = 9699.6970800819145
-			distanceTraveled = 0.41609975240444014
-			root = 0
-			lat = 0.25892966466590928
-			lon = -75.549069919015992
-			alt = 255.884719702648
-			hgt = 0.490576267
-			nrm = -0.0627949834,-0.949018359,0.308903396
-			rot = -0.467766911,-0.540927887,-0.522066891,-0.464798212
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			PQSMin = 2
-			PQSMax = 9
-			GroupOverride = 0
-			OverrideDefault = False,False,False,False
-			OverrideActionControl = 0,0,0,0
-			OverrideAxisControl = 0,0,0,0
-			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = 0
-				ECC = 1
-				INC = 89.741070335334101
-				LPE = 90
-				LAN = 155.43997427613419
-				MNA = 0
-				EPH = 3634130.3227757481
-				REF = 1
-				IDENT = Squad/Kerbin
-			}
-			PART
-			{
-				name = fuelTankSmallFlat
-				cid = 4290816502
-				uid = 1988683895
-				mid = 2199374814
-				persistentId = 2832565040
-				launchID = 9
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.00000191
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 2
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 0
-				sameVesselCollision = False
-				srfN = srfAttach, -1
-				attN = top, -1
-				attN = bottom, -1
-				mass = 0.0625
-				shielded = False
-				temp = 312.12509514542103
-				tempExt = 311.21736517305487
-				tempExtUnexp = 311.21745166077312
-				staticPressureAtm = 0.96265723668231862
-				expt = 0.5
-				state = 1
-				PreFailState = 0
-				attached = False
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/bullseye
-				rTrf = fuelTankSmallFlat
-				modCost = -2.38418579E-06
-				modMass = -1.39698386E-09
-				moduleVariantName = BlackAndWhite
-				moduleCargoStackableQuantity = 1
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutOff
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutRoot
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutHeaviest
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutGrandparent
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesEnableFlow
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesDisableFlow
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCargoPart
-					isEnabled = True
-					packedVolume = 1100
-					beingAttached = False
-					beingSettled = False
-					reinitResourcesOnStoreInVessel = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModulePartVariants
-					isEnabled = True
-					useVariantMass = True
-					stagingEnabled = True
-					selectedVariant = BlackAndWhite
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9PartSwitch
-					isEnabled = True
-					stagingEnabled = True
-					moduleID = fuelSwitch
-					currentSubtype = LF/O
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleCryoTank
-					isEnabled = True
-					LastUpdateTime = 9694.497080081801
-					CoolingAllowed = True
-					CoolingEnabled = False
-					BoiloffOccuring = False
-					DebugMode = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						EnableAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						DisableAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						ToggleAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9PartInfo
-					isEnabled = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = LiquidFuel
-					amount = 0
-					maxAmount = 45
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-				RESOURCE
-				{
-					name = Oxidizer
-					amount = 0
-					maxAmount = 55
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = True, 8345.93234375176
-				Gear = False, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = True, 8300.31234375076
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				AxisGroupsModule
-				{
-				}
-				SuspensionLoadBalancer
-				{
-				}
-				BetterBurnTimeData
-				{
-				}
-				CLSVesselModule
-				{
-				}
-				VesselDataManager
-				{
-				}
-				ModuleDynamicBatteryStorage
-				{
-				}
-				RPMVesselComputer
-				{
-					PERSISTENT_VARS
-					{
-					}
-				}
-				MouseAimVesselModule
-				{
-				}
-				VesselModuleSave
-				{
-				}
-				SystemHeatVessel
-				{
-				}
-			}
-		}
 		VESSEL
 		{
 			pid = 71d14d800708447f80bd92d46da12d23
@@ -28867,13 +28327,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 89.959394052866401
-				LPE = 89.999999999999986
-				LAN = 339.39009608786876
+				INC = 89.959394052844218
+				LPE = 90
+				LAN = 339.40014613834614
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 2
 				IDENT = Squad/Mun
 			}
@@ -29786,11 +29246,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 90.073110819290505
+				INC = 90.073110819289511
 				LPE = 90
-				LAN = 337.92544918860801
+				LAN = 337.93549923909444
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 2
 				IDENT = Squad/Mun
 			}
@@ -30273,646 +29733,6 @@ GAME
 				Light = False, 0
 				RCS = False, 0
 				SAS = True, 904553.256729139
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				AxisGroupsModule
-				{
-				}
-				SuspensionLoadBalancer
-				{
-				}
-				BetterBurnTimeData
-				{
-				}
-				CLSVesselModule
-				{
-				}
-				VesselDataManager
-				{
-				}
-				ModuleDynamicBatteryStorage
-				{
-				}
-				RPMVesselComputer
-				{
-					PERSISTENT_VARS
-					{
-					}
-				}
-				MouseAimVesselModule
-				{
-				}
-				VesselModuleSave
-				{
-				}
-				SystemHeatVessel
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = b5d298079a854f84bb80d8ffeae6f6f0
-			persistentId = 3055532995
-			name = 0019-Minmus 1 Debris
-			type = Debris
-			sit = SPLASHED
-			landed = False
-			skipGroundPositioning = False
-			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
-			launchedFrom = LaunchPad
-			landedAt = 
-			displaylandedAt = 
-			splashed = True
-			met = 16.600000015459955
-			lct = 2007065.9539256783
-			lastUT = 2007082.5939256938
-			distanceTraveled = 0.45867856667753715
-			root = 0
-			lat = -1.4355990964760781
-			lon = -71.414929674798174
-			alt = -22.030435468186624
-			hgt = 763.607117
-			nrm = -0.994946957,-0.0928602666,-0.0381775498
-			rot = 0.540031731,-0.371543318,0.707852185,0.26318562
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			PQSMin = 2
-			PQSMax = 9
-			GroupOverride = 0
-			OverrideDefault = False,False,False,False
-			OverrideActionControl = 0,0,0,0
-			OverrideAxisControl = 0,0,0,0
-			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = 299988.98478226591
-				ECC = 0.99999999999999978
-				INC = 91.435599096476082
-				LPE = 90
-				LAN = 159.57411452035194
-				MNA = 3.1415926303452304
-				EPH = 3634130.3227757481
-				REF = 1
-				IDENT = Squad/Kerbin
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4291876144
-				uid = 3690382069
-				mid = 975948139
-				persistentId = 2356739645
-				launchID = 28
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.00000083
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 4
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 1
-				sameVesselCollision = False
-				srfN = srfAttach, -1,COLLIDER
-				mass = 0.0500000007
-				shielded = False
-				temp = 344.30528884202511
-				tempExt = 321.89284910068972
-				tempExtUnexp = 321.89335066866278
-				staticPressureAtm = 3.1330810795571646
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = False
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/bullseye
-				rTrf = GooExperiment
-				modCost = 0
-				modMass = 0
-				moduleVariantName = Truss
-				moduleCargoStackableQuantity = 1
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutOff
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutRoot
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutHeaviest
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutGrandparent
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesEnableFlow
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesDisableFlow
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCargoPart
-					isEnabled = True
-					packedVolume = 75
-					beingAttached = False
-					beingSettled = False
-					reinitResourcesOnStoreInVessel = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = Experiment
-					isEnabled = True
-					issue = depleted
-					situationId = -16646143
-					didPrepare = False
-					shrouded = False
-					remainingSampleMass = 0
-					privateHdId = 3690382069
-					firstStart = False
-					prodFactor = 0
-					expState = Stopped
-					status = Stopped
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						StartAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						StopAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModulePartVariants
-					isEnabled = True
-					useVariantMass = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = HardDrive
-					isEnabled = True
-					hdId = 3690382069
-					effectiveDataCapacity = 0
-					effectiveSampleCapacity = 1
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 2006965.05032207
-				Gear = False, 0
-				Light = False, 0
-				RCS = False, 2006971.69032208
-				SAS = True, 2006924.51032204
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				AxisGroupsModule
-				{
-				}
-				SuspensionLoadBalancer
-				{
-				}
-				BetterBurnTimeData
-				{
-				}
-				CLSVesselModule
-				{
-				}
-				VesselDataManager
-				{
-				}
-				ModuleDynamicBatteryStorage
-				{
-				}
-				RPMVesselComputer
-				{
-					PERSISTENT_VARS
-					{
-					}
-				}
-				MouseAimVesselModule
-				{
-				}
-				VesselModuleSave
-				{
-				}
-				SystemHeatVessel
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 21e3e1c119ff4a2da5e444946ae508ac
-			persistentId = 1490919048
-			name = 0019-Minmus 1 Debris
-			type = Debris
-			sit = SPLASHED
-			landed = False
-			skipGroundPositioning = False
-			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
-			launchedFrom = LaunchPad
-			landedAt = 
-			displaylandedAt = 
-			splashed = True
-			met = 16.600000015459955
-			lct = 2007065.9539256783
-			lastUT = 2007082.5939256938
-			distanceTraveled = 0.50542555621951901
-			root = 0
-			lat = -1.4357287548494686
-			lon = -71.414835730911221
-			alt = -24.00900712586008
-			hgt = 761.449585
-			nrm = -0.973983526,0.0933776498,0.206486553
-			rot = -0.293849319,-0.751365364,-0.347399652,0.477929235
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			PQSMin = 2
-			PQSMax = 9
-			GroupOverride = 0
-			OverrideDefault = False,False,False,False
-			OverrideActionControl = 0,0,0,0
-			OverrideAxisControl = 0,0,0,0
-			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = 0
-				ECC = 1
-				INC = 91.435728754849464
-				LPE = 90
-				LAN = 159.57420846423895
-				MNA = 0
-				EPH = 3634130.3227757481
-				REF = 1
-				IDENT = Squad/Kerbin
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4291868884
-				uid = 2727386549
-				mid = 975948139
-				persistentId = 1966534070
-				launchID = 28
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.00000048
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = -1
-				resPri = 0
-				dstg = 4
-				sqor = -1
-				sepI = -1
-				sidx = -1
-				attm = 1
-				sameVesselCollision = False
-				srfN = srfAttach, -1,COLLIDER
-				mass = 0.0558509603
-				shielded = False
-				temp = 344.441982765109
-				tempExt = 321.93241821966842
-				tempExtUnexp = 321.93286809526484
-				staticPressureAtm = 3.3246701931751312
-				expt = 0.5
-				state = 0
-				PreFailState = 0
-				attached = False
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = Squad/Flags/bullseye
-				rTrf = GooExperiment
-				modCost = 0
-				modMass = 0.00585095817
-				moduleVariantName = Truss
-				moduleCargoStackableQuantity = 1
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutOff
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutRoot
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutHeaviest
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					AutostrutGrandparent
-					{
-						actionGroup = None
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesEnableFlow
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-					ResourcesDisableFlow
-					{
-						actionGroup = None
-						active = False
-						wasActiveBeforePartWasAdjusted = False
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleCargoPart
-					isEnabled = True
-					packedVolume = 75
-					beingAttached = False
-					beingSettled = False
-					reinitResourcesOnStoreInVessel = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = Experiment
-					isEnabled = True
-					issue = 
-					situationId = -16646143
-					didPrepare = False
-					shrouded = False
-					remainingSampleMass = 0.0058509581015788901
-					privateHdId = 2727386549
-					firstStart = False
-					prodFactor = 0
-					expState = Stopped
-					status = Stopped
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						StartAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						StopAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModulePartVariants
-					isEnabled = True
-					useVariantMass = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = HardDrive
-					isEnabled = True
-					hdId = 2727386549
-					effectiveDataCapacity = 0
-					effectiveSampleCapacity = 1
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 2006965.05032207
-				Gear = False, 0
-				Light = False, 0
-				RCS = False, 2006971.69032208
-				SAS = True, 2006924.51032204
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -32733,7 +31553,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 2.3225751486879238
+					amount = 2.3204279776088188
 					maxAmount = 2.7000000000000002
 					flowState = True
 					isTweakable = True
@@ -32744,7 +31564,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 1.1411237742650915
+					amount = 1.1394125353057305
 					maxAmount = 1.3999999999999999
 					flowState = True
 					isTweakable = True
@@ -32755,7 +31575,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 316.79962347357656
+					amount = 316.4078890109655
 					maxAmount = 374
 					flowState = True
 					isTweakable = True
@@ -32821,7 +31641,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 660.88924675547094
+					amount = 660.87756531290631
 					maxAmount = 662.60000000000002
 					flowState = True
 					isTweakable = True
@@ -35881,7 +34701,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 1652.223116878539
+					amount = 1652.1939132721302
 					maxAmount = 1656.5
 					flowState = True
 					isTweakable = True
@@ -38866,7 +37686,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.4625342062054
+					amount = 6768.0831874123387
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -39059,7 +37879,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.4625342062054
+					amount = 6768.0831874123387
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -39252,7 +38072,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.4625342062054
+					amount = 6768.0831874123387
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -39445,7 +38265,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.4625342062054
+					amount = 6768.0831874123387
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -39621,7 +38441,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802852242833282
+					amount = 52.754037134614229
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -39632,7 +38452,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.249564119563711
+					amount = 19.220697308780345
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -39808,7 +38628,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802852242833282
+					amount = 52.754037134614229
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -39819,7 +38639,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.249564119563711
+					amount = 19.220697308780345
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -39995,7 +38815,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802852242833282
+					amount = 52.754037134614229
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -40006,7 +38826,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.249564119563711
+					amount = 19.220697308780345
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -40182,7 +39002,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802852242833282
+					amount = 52.754037134614229
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -40193,7 +39013,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.249564119563711
+					amount = 19.220697308780345
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -40387,7 +39207,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.4104687826166
+					amount = 7181.2835349062643
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -40581,7 +39401,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.4104687826166
+					amount = 7181.2835349062643
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -40775,7 +39595,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.4104687826166
+					amount = 7181.2835349062643
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -40969,7 +39789,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.4104687826166
+					amount = 7181.2835349062643
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -55233,7 +54053,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 2.3225398765195684
+					amount = 2.3203927380488287
 					maxAmount = 2.7000000000000002
 					flowState = True
 					isTweakable = True
@@ -55244,7 +54064,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 1.141556258501454
+					amount = 1.1398443709850379
 					maxAmount = 1.3999999999999999
 					flowState = True
 					isTweakable = True
@@ -55255,7 +54075,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 316.78578134700473
+					amount = 316.39406400069498
 					maxAmount = 374
 					flowState = True
 					isTweakable = True
@@ -55321,7 +54141,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 660.89720061181117
+					amount = 660.88551902865652
 					maxAmount = 662.60000000000002
 					flowState = True
 					isTweakable = True
@@ -58029,7 +56849,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 1652.2430015263915
+					amount = 1652.2137975685057
 					maxAmount = 1656.5
 					flowState = True
 					isTweakable = True
@@ -61014,7 +59834,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.1664459281656
+					amount = 6767.7874652584314
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -61207,7 +60027,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.1664459281656
+					amount = 6767.7874652584314
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -61400,7 +60220,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.1664459281656
+					amount = 6767.7874652584314
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -61593,7 +60413,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 6776.1664459281656
+					amount = 6767.7874652584314
 					maxAmount = 8000
 					flowState = True
 					isTweakable = True
@@ -61769,7 +60589,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802050343660255
+					amount = 52.753235976779848
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -61780,7 +60600,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.256859676124389
+					amount = 19.227981924862078
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -61956,7 +60776,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802050343660255
+					amount = 52.753235976779848
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -61967,7 +60787,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.256859676124389
+					amount = 19.227981924862078
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -62143,7 +60963,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802050343660255
+					amount = 52.753235976779848
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -62154,7 +60974,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.256859676124389
+					amount = 19.227981924862078
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -62330,7 +61150,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 52.802050343660255
+					amount = 52.753235976779848
 					maxAmount = 61.383460998535156
 					flowState = True
 					isTweakable = True
@@ -62341,7 +61161,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 19.256859676124389
+					amount = 19.227981924862078
 					maxAmount = 23.616535186767578
 					flowState = True
 					isTweakable = True
@@ -62535,7 +61355,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.496897655893
+					amount = 7181.3699622518798
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -62729,7 +61549,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.496897655893
+					amount = 7181.3699622518798
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -62923,7 +61743,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.496897655893
+					amount = 7181.3699622518798
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -63117,7 +61937,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 7181.496897655893
+					amount = 7181.3699622518798
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -79289,7 +78109,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 794.12364396520911
+					amount = 794.10549510808153
 					maxAmount = 840
 					flowState = True
 					isTweakable = True
@@ -79355,7 +78175,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 195.77708773567986
+					amount = 195.03674974100443
 					maxAmount = 662.60000000000002
 					flowState = True
 					isTweakable = True
@@ -79684,13 +78504,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 100772.91582360075
-				ECC = 0.99999999999999989
+				SMA = 0
+				ECC = 1
 				INC = 89.967379578343412
 				LPE = 90
-				LAN = 213.33173770292964
-				MNA = 3.1415926864625696
-				EPH = 3634130.3227757481
+				LAN = 213.34178775341476
+				MNA = 0
+				EPH = 3634134.2027757517
 				REF = 2
 				IDENT = Squad/Mun
 			}
@@ -114578,7 +113398,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = 262145
+					situationId = 184811521
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -115359,7 +114179,7 @@ GAME
 					critical = False
 					quality = False
 					last = 3040922.9537428692
-					next = 35149648.5714142
+					next = 35149216.0634413
 					last_inspection = 3040922.9537428692
 					needMaintenance = False
 					enforce_breakdown = False
@@ -118316,7 +117136,7 @@ GAME
 					critical = False
 					quality = False
 					last = 3040922.9537428692
-					next = 24003698.7508859
+					next = 24003441.9344312
 					last_inspection = 3040922.9537428692
 					needMaintenance = False
 					enforce_breakdown = False
@@ -118525,7 +117345,7 @@ GAME
 					critical = False
 					quality = False
 					last = 3040922.9537428692
-					next = 35000325.6483222
+					next = 35000068.8318675
 					last_inspection = 3040922.9537428692
 					needMaintenance = False
 					enforce_breakdown = False
@@ -119662,7 +118482,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = 33882113
+					situationId = 17104897
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -137316,13 +136136,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = 90.005391921132642
 				LPE = 90
-				LAN = 25.759453669175798
+				LAN = 25.794027926637739
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 3
 				IDENT = Squad/Minmus
 			}
@@ -137587,13 +136407,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 90.008405351068589
+				INC = 90.008405351080143
 				LPE = 90
-				LAN = 25.75842000297132
+				LAN = 25.792994260437979
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 3
 				IDENT = Squad/Minmus
 			}
@@ -137878,13 +136698,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 90.007450425852099
+				SMA = 30000.070583383418
+				ECC = 0.99999999999999989
+				INC = 90.007450425843643
 				LPE = 90
-				LAN = 25.758953433151419
-				MNA = 0
-				EPH = 3634130.3227757481
+				LAN = 25.793527690610631
+				MNA = 3.1415926207170166
+				EPH = 3634134.2027757517
 				REF = 3
 				IDENT = Squad/Minmus
 			}
@@ -138289,11 +137109,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 90.008447841819162
+				INC = 90.008447841797832
 				LPE = 90
-				LAN = 25.759316753732321
+				LAN = 25.793891011189885
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 3
 				IDENT = Squad/Minmus
 			}
@@ -138578,13 +137398,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 90.006996009205196
+				INC = 90.00699600920386
 				LPE = 90
-				LAN = 25.757578854257872
+				LAN = 25.792153111721575
 				MNA = 0
-				EPH = 3634130.3227757481
+				EPH = 3634134.2027757517
 				REF = 3
 				IDENT = Squad/Minmus
 			}
@@ -148289,7 +147109,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 318.06259564542182
+					amount = 420
 					maxAmount = 420
 					flowState = True
 					isTweakable = True
@@ -148300,7 +147120,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 4.0500000000000007
+					amount = 3.9741825225449956
 					maxAmount = 4.0500000000000007
 					flowState = True
 					isTweakable = True
@@ -148311,7 +147131,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 2.0999999999999996
+					amount = 2.0533149263245267
 					maxAmount = 2.0999999999999996
 					flowState = True
 					isTweakable = True
@@ -148322,7 +147142,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 558.97596393387232
+					amount = 552.38806861726391
 					maxAmount = 561
 					flowState = True
 					isTweakable = True
@@ -148388,7 +147208,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 993.79294489773872
+					amount = 993.44449416999157
 					maxAmount = 993.89999999999998
 					flowState = True
 					isTweakable = True
@@ -150760,7 +149580,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -150894,7 +149714,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151028,7 +149848,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151162,7 +149982,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151296,7 +150116,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151430,7 +150250,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151564,7 +150384,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151698,7 +150518,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151832,7 +150652,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -151966,7 +150786,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -152100,7 +150920,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -152234,7 +151054,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 302.91675775790975
+					amount = 400
 					maxAmount = 400
 					flowState = True
 					isTweakable = True
@@ -155496,7 +154316,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 1656.321574832559
+					amount = 1655.7408236196477
 					maxAmount = 1656.5
 					flowState = True
 					isTweakable = True
@@ -156760,7 +155580,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 7.2215838432312012
+					amount = 7.0863931592253708
 					maxAmount = 7.2215838432312012
 					flowState = True
 					isTweakable = True
@@ -156771,7 +155591,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 2.7784159183502197
+					amount = 2.7166489888981777
 					maxAmount = 2.7784159183502197
 					flowState = True
 					isTweakable = True
@@ -156945,7 +155765,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 7.2215838432312012
+					amount = 7.0863931592253708
 					maxAmount = 7.2215838432312012
 					flowState = True
 					isTweakable = True
@@ -156956,7 +155776,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 2.7784159183502197
+					amount = 2.7166489888981777
 					maxAmount = 2.7784159183502197
 					flowState = True
 					isTweakable = True
@@ -157147,7 +155967,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 1693.8665573748551
+					amount = 1673.9032382336259
 					maxAmount = 1700
 					flowState = True
 					isTweakable = True
@@ -157338,7 +156158,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 1693.8665573748551
+					amount = 1673.9032382336259
 					maxAmount = 1700
 					flowState = True
 					isTweakable = True
@@ -162496,7 +161316,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 106.02086521518106
+					amount = 140
 					maxAmount = 140
 					flowState = True
 					isTweakable = True
@@ -162562,7 +161382,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 662.52862993032863
+					amount = 662.29632944516356
 					maxAmount = 662.60000000000002
 					flowState = True
 					isTweakable = True
@@ -170942,7 +169762,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 424.08346086072424
+					amount = 560
 					maxAmount = 560
 					flowState = True
 					isTweakable = True
@@ -170953,7 +169773,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 2.7000000000000002
+					amount = 2.6494550150299969
 					maxAmount = 2.7000000000000002
 					flowState = True
 					isTweakable = True
@@ -170964,7 +169784,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 1.3999999999999999
+					amount = 1.3688766175496845
 					maxAmount = 1.3999999999999999
 					flowState = True
 					isTweakable = True
@@ -170975,7 +169795,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 372.65064262258232
+					amount = 368.25871241151276
 					maxAmount = 374
 					flowState = True
 					isTweakable = True
@@ -171041,7 +169861,7 @@ GAME
 				RESOURCE
 				{
 					name = Nitrogen
-					amount = 662.52862993032863
+					amount = 662.29632944516356
 					maxAmount = 662.60000000000002
 					flowState = True
 					isTweakable = True
@@ -173470,18 +172290,18 @@ GAME
 		ClickThroughBlocker v2.1.10.21 = False
 		0Harmony v2.2.1.0 = True
 		HarmonyInstallChecker v2.2.1.0 = True
-		ToolbarControl v0.1.9.11 = True
+		ToolbarControl v0.1.9.11 = False
 		ASETPropsIdentifier v1.5.0.0 = True
 		Astrogator v1.0.2.0 = True
 		B9PartSwitch v2.20.0.0 / vv2.20.0 = True
 		BetterBurnTime v1.0.0.0 = True
 		BetterTimeWarpCont v2.3.13.0 / v2.3.13 = False
-		CameraTools v1.36.0.0 / v1.36.0 = True
+		CameraTools v1.36.0.0 / v1.36.0 = False
 		Chatterer v0.9.99.2788 = True
 		CCK v5.1.0.0 / v5.1.0.0 for KSP v1 = True
 		CLSInterfaces v2.0.1.0 = True
 		ConnectedLivingSpace v2.0.2.0 = True
-		ContractConfigurator v1.0.0.0 / v2.11.0.0 KSP-RO / v2.11.0.0 = True
+		ContractConfigurator v1.0.0.0 / v2.11.0.0 KSP-RO / v2.11.0.0 = False
 		RemoteTech v1.9.0.0 / v1.9.12 = True
 		CC_RemoteTech v2.0.0.0 / v2.0.0 = True
 		SimpleBoiloff v0.2.1.0 = True
@@ -173500,13 +172320,13 @@ GAME
 		TextureConfig v1.11.7.2 = True
 		Utils v1.11.7.2 = True
 		_BuildManager v1.11.7.2 = True
-		FreeIva v0.2.19.0 = True
+		FreeIva v0.2.19.0 = False
 		HideEmptyTechTreeNodes v1.0.0.0 = True
 		ImprovedUpdatedChaseCam v1.6.4.3 = True
 		RasterPropMonitor v1.0.2.0 = True
 		0_MultipleModuleInPartAPI v1.0.0.0 = True
-		KSPCommunityFixes v1.36.1.0 = True
-		KerbalJointReinforcement v3.8.3.0 = True
+		KSPCommunityFixes v1.36.1.0 = False
+		KerbalJointReinforcement v3.8.3.0 = False
 		KerbalismBootstrap v3.19.8736.26428 / v3.19 = True
 		Kopernicus.Parser v1.0.0.0 = True
 		ModularFlightIntegrator v1.0.0.0 / v1.2.10.0 = True
@@ -173538,7 +172358,7 @@ GAME
 		ButtonManager v1.0.1.1 = True
 		KSP_ColorPicker v1.1.0.5 = True
 		KSP_PartHighlighter v1.1.0.10 = True
-		SpaceTuxUtility v1.0.1.3 = True
+		SpaceTuxUtility v1.0.1.3 = False
 		VesselModuleSave v1.0.1.2 = True
 		HabUtils v1.0.0.0 = True
 		SystemHeat v0.1.0.0 = True
@@ -173549,7 +172369,7 @@ GAME
 		VesselView v0.8.9.0 / v0.8.9 = True
 		VesselViewRPM v0.8.9.0 / v0.8.9 = True
 		Waterfall v0.10.2.0 / v0.10.2 = True
-		WaypointManager v2.8.4.2 / v2.8.1 = True
+		WaypointManager v2.8.4.2 / v2.8.1 = False
 		KerbalActuators v1.0.0.0 = True
 		zKerbalismSystemHeat v0.4.0.0 / v1.0.0.0 = True
 		000_ClickThroughBlocker = True
@@ -173643,11 +172463,20 @@ GAME
 		Kopernicus v1.0.0.0 / v1.12.218.0 = False
 		ClickThroughBlocker v2.1.10.22 = True
 		BetterTimeWarpCont v2.3.13.1 = True
-		Kopernicus v1.0.0.0 / v1.12.220.0 = True
-		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
+		Kopernicus v1.0.0.0 / v1.12.220.0 = False
 		MouseAimFlight v0.0.0.0 = True
 		AxialAerospace = True
 		MouseAimFlight = True
+		ContractConfigurator v1.0.0.0 / v2.11.1.0 KSP-RO / v2.11.1.0 = True
+		ToolbarControl v0.1.9.13 = True
+		CameraTools v1.36.1.0 / v1.36.1 = True
+		FreeIva v0.2.20.0 = True
+		KSPCommunityFixes v1.37.3.0 = True
+		KerbalJointReinforcement v3.8.5.0 = True
+		Kopernicus v1.0.0.0 / v1.12.224.0 = True
+		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
+		SpaceTuxUtility v1.0.1.4 = True
+		WaypointManager v2.8.4.7 / v2.8.1 = True
 	}
 	ROSTER
 	{
@@ -181384,52 +180213,58 @@ GAME
 	{
 		VesselModuleSaveFrameworkVesselModuleSave
 		{
-			d87c4065-e45e-413d-ada1-7e5043e2423c
+			9cc3cb14-7caf-4931-8a59-8da0f4c6b33c
 			{
 			}
-			36b15284-d838-4864-9196-386e1885f9ef
+			85300a0e-6e14-4583-b0cb-6c73f35ce584
 			{
 			}
-			0bfc3c1f-b69e-464b-9d4e-7d145234e20e
+			eba61125-20c2-44e7-ba2c-a0de5cf3dbb1
 			{
 			}
-			db5cb762-785f-484e-90b8-73f485c19522
+			88e29e22-263d-435a-989a-2bfb1dc37e9b
 			{
 			}
-			2426bcc3-1e45-40c5-a329-1433c1df8005
+			78808e5e-7894-4072-aadc-084d80c91463
 			{
 			}
-			78aff86f-f450-4f6e-872b-508d53f35b84
+			741fd604-7cf1-4953-a8ea-b94bf55a0dbc
 			{
 			}
-			24aa8d7e-5f63-4ec4-a854-dca6ebdffd53
+			270c3e70-45c7-48b7-85b2-4d175ee334db
 			{
 			}
-			7219fc8f-feb4-493f-b7dd-4a8047350734
+			1be8d191-ead3-43fd-a7ec-f5eedd04988d
 			{
 			}
-			c782db9e-90a6-4273-9923-6854dfac9843
+			c284c350-d4ca-4e85-a7f9-e27c1a55e861
 			{
 			}
-			f347b3e3-a0e5-468b-974e-6331eea0f872
+			17d1c072-03f9-484e-8539-c91b6cc0c357
 			{
 			}
-			ba23cdfe-2748-411b-b16d-ceae1fef424b
+			e112dc40-dbdc-49ff-84f3-64ae5a52b66d
 			{
 			}
-			2a2a1882-ad73-4d75-a3ce-45e004acd5ff
+			44c7fe29-ed31-4e72-bb2e-04c8e7fc53fc
 			{
 			}
-			3a8afbf0-9023-4d35-8aef-36676e2e6746
+			b3cc8082-8761-44e5-b359-c246d3365287
 			{
 			}
-			20ef4e88-a104-477c-8227-fe435a8d9db0
+			84550bb5-f6ae-4f1d-b40d-14c06f7b335e
 			{
 			}
-			e82671d3-5076-492e-ba80-93365a15a307
+			76850ff2-4423-414f-a822-28bb06277f64
 			{
 			}
-			65556462-5bd2-451f-9db6-7dfe8d6c07c9
+			6491998a-1e4f-4398-a18d-a2fbeb0a629f
+			{
+			}
+			f1080a5e-038c-4a6a-a3c1-87cb927c7af3
+			{
+			}
+			f334399f-f3dc-4d3b-926b-6c747bbc7b8f
 			{
 			}
 			71d14d80-0708-447f-80bd-92d46da12d23
@@ -181456,12 +180291,6 @@ GAME
 			2efe33c8-a126-4d3d-b360-4c70c9226262
 			{
 			}
-			b5d29807-9a85-4f84-bb80-d8ffeae6f6f0
-			{
-			}
-			21e3e1c1-19ff-4a2d-a5e4-44946ae508ac
-			{
-			}
 			b21e4ab3-1b7c-4b36-95cc-65b380a48e6a
 			{
 			}
@@ -181477,7 +180306,7 @@ GAME
 			e53a6647-8618-4f5c-9c72-698ff96320bd
 			{
 			}
-			3a935021-a0a8-4257-979b-a81d671b1972
+			8b52148c-2b2d-4999-94c3-da03bc39aae7
 			{
 			}
 			661539f3-8345-4015-95dc-dc461083df68
@@ -181519,7 +180348,7 @@ GAME
 			5ff99ba8-025b-44fe-9d3a-b23ed9950759
 			{
 			}
-			7ddb8d21-0ec8-4926-b953-36cd5ef7c058
+			fc1840e8-a327-42fa-80e8-3ba21ab6c42f
 			{
 			}
 			795ccbcd-a132-4015-92f9-4716aef5a851
