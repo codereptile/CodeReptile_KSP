@@ -10,12 +10,14 @@ But there are many more random designs for you to have fun with =)
 
 # KSP mod pack @ CodeReptile
 
-The focus of this mode pack is to bring new mechanics into the game, making late-game more challenging, while providing a shallow learning curve. I
+The focus of this mode pack is to bring new mechanics into the game, making late-game more challenging, while providing
+a shallow learning curve. I
 also provide a number of difficulty presets.
 
 Abbreviations for mod types:
 
-**Q** -> **QOL** - Quality of life. These mods are not supposed to change the gameplay much, but provide functionality I personally find useful.
+**Q** -> **QOL** - Quality of life. These mods are not supposed to change the gameplay much, but provide functionality I
+personally find useful.
 
 **R** -> **Realism** - Realism improvements.
 
@@ -33,7 +35,8 @@ Abbreviations for mod types:
 
 For example, a mod marked **QPG** would be a mod that adds parts, QOL features and graphics changes.
 
-Also, since all these mods are supported by CKAN, I'm not going to provide links to them. Just search for the mod name in CKAN.
+Also, since all these mods are supported by CKAN, I'm not going to provide links to them. Just search for the mod name
+in CKAN.
 
 ### ALL MOD VARIATIONS HAVE THEIR RESPECTIVE CKAN IMPORT PACKAGE. USE IT TO INSTALL ALL THE MODS AT THE SAME TIME.
 
@@ -84,7 +87,8 @@ Unfortunately, not all mods are supported via CKAN, so you'll have to install th
 
 ### IMPORTANT NOTICE:
 
-**If your GPU has low memory and you have integrated graphics, please make the first launch after installing mods with integrated GPU. Some mods like
+**If your GPU has low memory and you have integrated graphics, please make the first launch after installing mods with
+integrated GPU. Some mods like
 Scatterer will do unpacking during first launch
 and might fail on low memory. You can then restart the game with the discrete GPU.**
 
@@ -135,6 +139,7 @@ Install all of the above and:
 | RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                         |
 | RP   | `Near Future Exploration`                                    | Probe cores and antennas                                  |
 | RP   | `Near Future Aeronautics`                                    | Advances aerospace                                        |
+| RP   | `Near Future Construction`                         | Advanced construction                                     |
 | RP   | `KerbalAtomics`                                              | Nuclear engines                                           |
 | PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                                 |
 | RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                        |
@@ -176,4 +181,5 @@ Overall profile: HARD, only changed settings are shown
     - DeepFreeze Options:
         - Fatal EC/Heat Option: ON
         - AutoRecover Frozen Kerbals at KSC: ON
-- RemoteTech: MANUAL config change to `UpgradeableOmni = 2.0E+09;5.0E+10;2.5E+11` for `GroundStations` (makes them = stock)
+- RemoteTech: MANUAL config change to `UpgradeableOmni = 2.0E+09;5.0E+10;2.5E+11` for `GroundStations` (makes them =
+  stock)

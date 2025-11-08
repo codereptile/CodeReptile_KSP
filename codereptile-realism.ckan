@@ -4,7 +4,7 @@
     "name": "CodeReptile Realism",
     "abstract": "A few more mods for realism and new game mechanics",
     "author": "codereptile",
-    "version": "v1.1.0",
+    "version": "v1.2.0",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -49,7 +49,13 @@
             "name": "Kerbalism-SystemHeat"
         },
         {
+            "name": "MinorPlanetsExpansion"
+        },
+        {
             "name": "NearFutureAeronautics"
+        },
+        {
+            "name": "NearFutureConstruction"
         },
         {
             "name": "NearFutureElectrical"
@@ -73,16 +79,13 @@
             "name": "NearFutureSpacecraft"
         },
         {
-            "name": "OuterPlanetsMod"
+            "name": "OuterParallax-MPE"
         },
         {
             "name": "OuterParallax-OPM"
         },
         {
-            "name": "MinorPlanetsExpansion"
-        },
-        {
-            "name": "OuterParallax-MPE"
+            "name": "OuterPlanetsMod"
         },
         {
             "name": "RemoteTech"
