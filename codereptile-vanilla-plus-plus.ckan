@@ -4,7 +4,7 @@
     "name": "CodeReptile Vanilla++",
     "abstract": "Basically the vanilla game(difficulty-wise) with QOL and graphics mods + a few minor part additions.",
     "author": "codereptile",
-    "version": "v1.2.2",
+    "version": "v1.2.3",
     "ksp_version_min": "1.12",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -86,6 +86,9 @@
         },
         {
             "name": "ThroughTheEyesOfaKerbal"
+        },
+        {
+            "name": "TooManyOrbits"
         },
         {
             "name": "Trajectories"
