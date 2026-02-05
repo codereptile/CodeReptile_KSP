@@ -2,9 +2,10 @@
 
 You can find all craft used in all of my videos here:
 
-| Craft  | Videos                | Quick description                          |
-|--------|-----------------------|--------------------------------------------|
-| Anubis | `Infected on the mun` | An apollo-style rocket for Mun exploration |
+| Craft         | Videos                 | Quick description                             |
+|---------------|------------------------|-----------------------------------------------|
+| Anubis        | `Infected on the mun`  | An apollo-style rocket for Mun exploration    |
+| KSN Expansika | `The Jool System Lore` | Big boy colony ship (KSN = Kerbal Space Navy) |
 
 But there are many more random designs for you to have fun with =)
 
@@ -139,7 +140,7 @@ Install all of the above and:
 | RP   | `Near Future Launch Vehicles`                                | BIGGER ROCKETS!!!                                         |
 | RP   | `Near Future Exploration`                                    | Probe cores and antennas                                  |
 | RP   | `Near Future Aeronautics`                                    | Advances aerospace                                        |
-| RP   | `Near Future Construction`                         | Advanced construction                                     |
+| RP   | `Near Future Construction`                                   | Advanced construction                                     |
 | RP   | `KerbalAtomics`                                              | Nuclear engines                                           |
 | PG   | `Kerbal Planetary Base Systems`                              | Parts for planetary bases                                 |
 | RP   | `Stockalike Station Parts Expansion Redux`                   | Cool station parts                                        |
